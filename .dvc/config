@@ -1,0 +1,5 @@
+[core]
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://churn-prediction-mlops-dvc-storage-zdqu7tzz/data
+    region = us-east-1
