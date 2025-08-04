@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: churn-prediction-service
+  labels:
+    app: churn-prediction-app
+spec:
+  selector:
+    app: churn-prediction-app
+  ports:
+    - name: http
+      protocol: TCP
+      port: 8080
+      targetPort: 8000
+  type: LoadBalancer  # For Docker Desktop, this gives you localhost:8080 access

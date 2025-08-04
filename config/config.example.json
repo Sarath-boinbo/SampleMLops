@@ -1,0 +1,5 @@
+{
+  "ecrRepositoryUrl": "YOUR_ECR_REPOSITORY_URL_HERE",
+  "mlflowInstanceIp": "YOUR_MLFLOW_INSTANCE_IP_HERE",
+  "region": "us-east-1"
+}

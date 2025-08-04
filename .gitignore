@@ -10,3 +10,9 @@ wheels/
 .venv
 **/.terraform/
 terraform.tfstate
+
+# Deployment configuration (contains sensitive values)
+config.json
+
+# Keep example files
+!config.example.json
